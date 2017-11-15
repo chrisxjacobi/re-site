@@ -1,6 +1,0 @@
-typeface = quicksand, backup raleway
-
-wireframe = focus on links/usability
- ==> pen & paper (gridbooks)
- ==> omnigraffle
- ==> pencil project, mockflow, wireframe.cc, lucidchart
