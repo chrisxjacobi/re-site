@@ -30,3 +30,12 @@ html {
 
 /*---header---*/
 
+header {
+    background-color: rgba(162, 157, 157, 0.53);
+    padding: 30px;
+}
+
+img {
+    height: 4.9%;
+    width: 4.9%;
+}
