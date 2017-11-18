@@ -33,7 +33,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    font-size: 130%;
 }
 
 .hero-text-box {
@@ -46,7 +45,14 @@ header {
 }
 
 .hero-text-box a {
-    font-size: 80%;
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.hero-text-box h1 {
+    margin: 0;
+    font-size: 325%;
+    font-weight: 400;
 }
 
 
