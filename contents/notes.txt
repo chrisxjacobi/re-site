@@ -9,3 +9,10 @@ wireframe = focus on links/usability
  
  subtle patterns:
  ...bright squares
+ 
+ 
+ 
+ TO DO!!!!
+ 
+ 
+ -change font percentages when done with content
