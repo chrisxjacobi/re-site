@@ -97,11 +97,13 @@ html {
 
 header {
     height: 100vh;
+    margin-bottom: -20%;
 }
 
 .hero-text-box {
     text-align: center;
     padding-top: 10%;
+    margin-bottom: -30%;
 }
 
 .hero-text-box h1 {
@@ -127,19 +129,23 @@ header {
 
 
 
-/*---section-work---*/
+/*---section-projects---*/
 
 
 
-.section-work {
+.section-projects {
     padding: 40px 0;
     text-align: center;
     background-color: rgb(252, 252, 252);
 }
 
-.section-work h2 {
+.section-projects h2 {
     margin: 5% 10%;
 }
 
+
+.projects-row {
+    
+}
 
 
