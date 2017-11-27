@@ -149,19 +149,25 @@ header {
 
 
 
-
 /*---footer---*/
 
+
+
 footer {
-    text-align: center;
+    display: flex;
+    margin: 5%;
 }
 
-footer .social-links {
-    float: none;;
-    list-style: none;
-    font-size: 160%;
+footer ul {
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 10%;
 }
 
+
+footer p {
+    color: #189bc1;
+}
 
 
 
