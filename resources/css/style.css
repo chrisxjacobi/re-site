@@ -134,7 +134,7 @@ header {
 
 
 .section-projects {
-    padding: 40px 0;
+    padding: 3% 0;
     text-align: center;
     background-color: rgb(252, 252, 252);
 }
@@ -145,7 +145,23 @@ header {
 
 
 .projects-row {
-    
 }
+
+
+
+
+/*---footer---*/
+
+footer {
+    text-align: center;
+}
+
+footer .social-links {
+    float: none;;
+    list-style: none;
+    font-size: 160%;
+}
+
+
 
 
