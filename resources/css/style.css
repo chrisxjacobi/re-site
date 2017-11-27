@@ -69,7 +69,7 @@ html {
     float: right;
     list-style: none;
     margin-top: 40px;
-    font-size: 150%;
+    font-size: 160%;
 }
 
 .social-links li {
@@ -104,7 +104,7 @@ header {
     padding-top: 10%;
 }
 
-h1 {
+.hero-text-box h1 {
     margin-bottom: 10px;
 }
 
