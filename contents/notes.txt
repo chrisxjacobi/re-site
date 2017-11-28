@@ -7,8 +7,15 @@ wireframe = focus on links/usability
  
  polygon drawing : https://www.math10.com/en/geometry/geogebra/geogebra.html
  
- subtle patterns:
- ...bright squares
+
+
+
+<div class="col span-1-of-2 box">
+                <a href="https://shrouded-depths-12783.herokuapp.com/helpr">
+                    <p>project 2</p>
+                </a>
+            </div>
+            
  
  
  
@@ -16,3 +23,5 @@ wireframe = focus on links/usability
  
  
  -change font percentages when done with content
+ 
+ 
