@@ -10,13 +10,7 @@ wireframe = focus on links/usability
 
 
 
-<div class="col span-1-of-2 box">
-                <a href="https://shrouded-depths-12783.herokuapp.com/helpr">
-                    <p>project 2</p>
-                </a>
-            </div>
-            
- 
+key images for projects divs
  
  
  TO DO!!!!
