@@ -68,7 +68,7 @@ html {
 .social-links {
     float: right;
     list-style: none;
-    margin-top: 35px;
+    margin-top: 40px;
     font-size: 160%;
 }
 
@@ -109,21 +109,20 @@ header {
     margin-bottom: 10px;
 }
 
-.hero-text-box h2:after {
-    display: block;
-    height: 3px;
-    background-color: #189bc1;
-    content: " ";
-    width: 150px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-}
-
 #name {
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.hero-text-box h2:after {
+    display: block;
+    height: 4px;
+    background-color: #189bc1;
+    content: " ";
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -146,6 +145,17 @@ header {
 .box img {
     width: 100%;
     height: auto;
+}
+
+
+
+/*---section-about*/
+
+
+
+.section-about {
+    text-align: center;
+    margin: 3% 10%;
 }
 
 
