@@ -142,10 +142,21 @@ header {
 }
 
 
-.box img {
+img {
     width: 100%;
     height: auto;
 }
+
+#test {
+    display: none;
+}
+
+img:hover span{
+    display: block;
+    color: black;
+    background-color: white;
+}
+
 
 
 
