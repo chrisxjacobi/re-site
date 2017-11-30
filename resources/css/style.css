@@ -148,10 +148,8 @@ header {
     height: auto;
 }
 
-.square {
-    display: block;
-    width: 100%;
-    height: auto;
+.container {
+    position: relative;
 }
 
 .overlay {
@@ -164,7 +162,7 @@ header {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #5f5f5f;
 }
 
 .box:hover .overlay {
