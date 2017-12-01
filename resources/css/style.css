@@ -167,6 +167,8 @@ header {
   border-radius: 10px;
 }
 
+
+
 .box:hover .overlay {
   opacity: 1;
   border-radius: 10px;
