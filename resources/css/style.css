@@ -45,7 +45,7 @@ html {
 .main-nav li {
     display: inline-block;
     margin-right: 30px;
-    font-size: 90%;
+    font-size: 95%;
 }
 
 .main-nav li a:link,
@@ -69,7 +69,7 @@ html {
     float: right;
     list-style: none;
     margin-top: 40px;
-    font-size: 130%;
+    font-size: 140%;
 }
 
 .social-links li {
@@ -97,7 +97,7 @@ html {
 
 header {
     height: 100vh;
-    margin-bottom: -15%;
+    margin-bottom: -22%;
 }
 
 .hero-text-box {
@@ -217,32 +217,4 @@ footer p {
     text-align: center;
     font-size: 70%;
 }
-
-
-/*--------------------*/
-/*---MEDIA SCREENS----*/
-/*--------------------*/
-
-/* from big table to widths smaller than a 1140px row */
-@media only screen and (max-width: 1200px) {
-    
-}
-
-/* small tablet to big tablet: from 768px to 1023px */
-
-@media only screen and (max-width: 1023px) {
-    
-}
-
-/* small phones to small tablets: from 481px to 767px */
-
-@media only screen and (max-width: 767px) {
-    
-}
-
-/* small phones: from 0 to 480px */ {
-    
-}
-
-@media only screen and (max-width: 480px) 
 
