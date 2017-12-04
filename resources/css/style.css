@@ -149,6 +149,10 @@ header {
     border-radius: 10px;
 }
 
+#nyan {
+    height: 370px;
+}
+
 .container {
     position: relative;
     border-radius: 10px;
