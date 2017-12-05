@@ -31,6 +31,20 @@ html {
 }
 
 
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
 /*---navbar---*/
 
 nav {
@@ -131,16 +145,34 @@ nav {
 }
 
 
+/*section projects*/
+
+.section-projects {
+    font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
+    text-align: center;
+    margin: 5%;
+}
+
+.section-projects .thumbnail {
+    border: 0 none;
+    box-shadow: none;
+
+}
+
+
+
 /*footer*/
+
+
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 100px;
-    margin-top: 20px;
     background-color: #fff;
-    list-style: none
+    padding-top: 20px;
+    list-style: none;
 }
 
 .footer ul {
@@ -153,15 +185,14 @@ nav {
 .footer ul li {
     display: inline-block;
     text-align: center;
-    margin-left: 30px;
-    padding-right: 30px;
+    padding-right: 40px;
     font-size: 160%;
 }
-
 
 .footer p {
     font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
     color: #189bc1;
     margin-top: 10px;
     text-align: center;
+    padding-bottom: 20px;
 }
