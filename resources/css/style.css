@@ -1,7 +1,6 @@
 /*fun color: #189bc1, rgb(24,155,193)*/
 /*text-color: #5f5f5f*/
 
-
 /*--------------------*/
 /*---DEFAULT STYLES---*/
 /*--------------------*/
@@ -11,23 +10,18 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-weight: 300;
+    color: #5f5f5f;
 }
 
 html {
     background-color: #fff;
+    min-height: 100%;
     color: #5f5f5f;
     font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     text-rendering: optimizeLegibility;
-}
-
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
 }
 
 
@@ -36,16 +30,21 @@ html {
 
 
 
+nav {
+    list-style: none;
+    margin-top: 40px;
+    font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
+}
+
 .main-nav {
     float: left;
     list-style: none;
-    margin-top: 40px;
+    display: flex;
 }
 
 .main-nav li {
     display: inline-block;
     margin-right: 30px;
-    font-size: 105%;
 }
 
 .main-nav li a:link,
@@ -55,66 +54,71 @@ html {
     text-decoration: none;
     text-transform: lowercase;
     font-weight: 400;
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 3px solid #5f5f5f;
+    border-bottom: 2px solid #5f5f5f;
 }
-
 
 .social-links {
     float: right;
     list-style: none;
-    margin-top: 40px;
+    display: flex;
     font-size: 160%;
 }
 
 .social-links li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
+    padding-right: 35px;
 }
 
 .social-links li a:link,
 .social-links li a:visited {
-    padding: 5px 0;
     color: #5f5f5f;
+    transition: color 0.5s;
+}
+
+.fa-github a:link,
+.fa-github a:visited {
+    transition: color 0.5s;
+}
+
+.fa-github-alt:hover,
+.fa-linkedin:hover,
+.fa-envelope-open-o:hover {
+    color: #189bc1;
     transition: color 0.2s;
 }
 
-.social-links li a:hover,
-.social-links li a:active {
-    color: #189bc1;
-}
 
 
-
-/*---header---*/
-
+/*header jumbotron*/
 
 
-header {
-    height: 100vh;
-    margin-bottom: -30%;
-}
-
-.hero-text-box {
-    text-align: center;
-    padding-top: 5%;
-}
-
-.hero-text-box h1 {
-    margin-bottom: 10px;
-}
 
 #name {
-    font-weight: 500;
     text-transform: uppercase;
+    font-weight: 500;
+    font-size: 48px;
+    color: #5f5f5f;
+    text-align: center;
+    font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
 }
 
-.hero-text-box h2:after {
+.jumbotron {
+    background-color: transparent !important;
+    margin-top: -50px;;
+    text-align: center;
+    font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+#dev:after {
     display: block;
     height: 4px;
     background-color: #189bc1;
@@ -123,102 +127,37 @@ header {
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
+
 }
 
 
 
-/*---section-projects---*/
+
+/*footer*/
 
 
 
-.section-projects {
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-.section-projects h2 {
-    margin: 3% 5%;
-    color: #5f5f5f;
-}
-
-
-.box img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-#nyan {
-    height: 370px;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
 }
 
 .container {
-    position: relative;
-    border-radius: 10px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(95, 95, 95, 0.95);
-  border-radius: 10px;
-}
-
-.box:hover .overlay {
-  opacity: 1;
-  border-radius: 10px;
-}
-
-.text {
+  margin-top: 50px;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  width: 100%;
 }
 
-
-
-/*---section-about*/
-
-
-
-.section-about {
-    text-align: center;
-    margin: 3% 10%;
+.container a {
+    margin: 3%;
+    font-size: 160%;
 }
 
-
-
-/*---footer---*/
-
-
-
-footer {
-    display: flex;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.footer p {
+    margin-bottom: %;
+    font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
+    color: #189bc1
 }
-
-footer ul {
-    display: inline-block;
-    margin-bottom: 10%;
-    margin-right: 40px;
-}
-
-
-footer p {
-    color: #189bc1;
-    text-align: center;
-    font-size: 70%;
-}
-

@@ -3,10 +3,10 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
 
@@ -15,158 +15,40 @@
 
 <body>
 
-    <!--HEADER-->
-    <header>
-        <nav>
-            <div class="row">
-                <ul class="main-nav">
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                </ul>
-                <ul class="social-links">
-                    <li><a href="https://github.com/chrisxjacobi"><i class="ion-social-github-outline"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/chrisxjacobi/"><i class="ion-social-linkedin-outline"></i></a></li>
-                    <li><a href="contact.html"><i class="ion-ios-email-outline"></i></a></li>
-                </ul>
-            </div>
-        </nav>
+    <!--navigation-->
+    <nav class="nav">
+        <ul class="main-nav">
+            <li><a href="#">projects</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        <ul class="social-links">
+            <li><a href="https://github.com/chrisxjacobi"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/chrisxjacobi/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="contact.html"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></a></li>
+        </ul>
+    </nav>
 
-        <!--HERO TEXT BOX-->
-        <div class="hero-text-box">
-            <h1 id="name">Chris Jacobi</h1>
-            <h2>Front-end web developer in Austin, TX.</h2>
-            <h4>Available for full-time and freelance opportunities</h4>
+    <!--header/intro container-->
+    <div class="container">
+        <h2 id="name">Chris Jacobi</h2>
+
+        <div class="jumbotron">
+            <p id="dev">Front-end web developer in Austin, TX.</p>
+            <p>Available for full-time and freelance opportunities</p>
         </div>
-    </header>
-
-    <!--WORK SECTION-->
-    <section class="section-projects">
+    </div>
 
 
-        <div class="row">
-            <div class="col span-1-of-2 box">
-                <div class="container">
-                    <img src="resources/css/img/blast-track.jpg" alt="blast-track">
-                    <div class="overlay">
-                        <a href="http://blasttrack.herokuapp.com/">
-                            <div class="text">
-                                <h3>blast.track</h3>
-                                <br>
-                                <h5>music &amp; event search/last.fm API usage</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col span-1-of-2 box">
-                <div class="container">
-                    <img src="resources/css/img/helpr.jpg" alt="helpr">
-                    <div class="overlay">
-                        <a href="https://shrouded-depths-12783.herokuapp.com/helpr">
-                            <div class="text">
-                                <h3>helpr</h3>
-                                <br>
-                                <h5>volunteer search &amp; contribution project</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col span-1-of-2 box">
-                <div class="container">
-                    <img src="resources/css/img/Nyan-Cat-Free-Download-PNG.png" alt="giftastic" id="nyan">
-                    <div class="overlay">
-                        <a href="http://giphytastic.herokuapp.com/" alt="giftastic">
-                            <div class="text">
-                                <h3>giftastic</h3>
-                                <br>
-                                <h5>add/search for a gif using giphy API</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col span-1-of-2 box">
-                <div class="container">
-                    <img src="resources/css/img/black-metal-trivia.jpg" alt="black metal trivia">
-                    <div class="overlay">
-                        <a href="https://blackmetaltrivia.herokuapp.com/">
-                            <div class="text">
-                                <h3>black metal trivia</h3>
-                                <br>
-                                <h5>time-based jQuery trivia game</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col span-1-of-2 box">
-                <div class="container">
-                    <img src="resources/css/img/90s-wrestling-hangman.jpg" alt="90s wrestling hangman">
-                    <div class="overlay">
-                        <a href="https://ninetieswrestlinghangman.herokuapp.com/">
-                            <div class="text">
-                                <h3>90s wrestling hangman</h3>
-                                <br>
-                                <h5>a nostalgic and fun javascript hangman game</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col span-1-of-2 box">
-                <div class="container">
-                    <img src="resources/css/img/blast-track.jpg" alt="blast-track">
-                    <div class="overlay">
-                        <a href="http://blasttrack.herokuapp.com/">
-                            <div class="text">
-                                <h3>blast.track</h3>
-                                <br>
-                                <h5>music &amp; event search/last.fm API usage</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="section-about">
-        <div class="row">
-            <h2>about</h2>
-        </div>
-    </section>
-
-
-    <!--FOOTER-->
-    <footer>
-        <div class="row">
-            <ul class="social-links">
-                <li><a href="https://github.com/chrisxjacobi"><i class="ion-social-github-outline"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/chrisxjacobi/"><i class="ion-social-linkedin-outline"></i></a></li>
-                <li><a href="contact.html"><i class="ion-ios-email-outline"></i></a></li>
-            </ul>
+    <div class="footer">
+        <div class="container">
+            <a href='#'><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+            <a href='#'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href='#'><i class="fa fa-envelope-open-o" aria-hidden="true"></i></a>
+            <br>
+            <br>
             <p>&copy; 2016 - chris jacobi</p>
+
         </div>
-
-    </footer>
-
-    <script src="resources/js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
+    </div>
 </body>
-
-
-
-</html>

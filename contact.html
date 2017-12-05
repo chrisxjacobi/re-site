@@ -3,10 +3,10 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
 
@@ -15,37 +15,40 @@
 
 <body>
 
-    <header>
+    <!--navigation-->
+    <nav class="nav">
+        <ul class="main-nav">
+            <li><a href="#">projects</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        <ul class="social-links">
+            <li><a href="https://github.com/chrisxjacobi"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/chrisxjacobi/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="contact.html"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></a></li>
+        </ul>
+    </nav>
 
-        <nav>
-            <div class="row">
-                <ul class="main-nav">
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                </ul>
-                <ul class="social-links">
-                    <li><a href="https://github.com/chrisxjacobi"><i class="ion-social-github-outline"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/chrisxjacobi/"><i class="ion-social-linkedin-outline"></i></a></li>
-                    <li><a href="contact.html"><i class="ion-ios-email-outline"></i></a></li>
-                </ul>
-            </div>
-        </nav>
+    <!--header/intro container-->
+    <div class="container">
+        <h2 id="name">Chris Jacobi</h2>
 
-    </header>
-    
-    <!--FOOTER-->
-    <footer>
-        <div class="row">
-            <ul class="social-links">
-                <li><a href="https://github.com/chrisxjacobi"><i class="ion-social-github-outline"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/chrisxjacobi/"><i class="ion-social-linkedin-outline"></i></a></li>
-                <li><a href="contact.html"><i class="ion-ios-email-outline"></i></a></li>
-            </ul>
-            <p>&copy; 2016 - chris jacobi</p>
+        <div class="jumbotron">
+            <p id="dev">Front-end web developer in Austin, TX.</p>
+            <p>Available for full-time and freelance opportunities</p>
         </div>
-        
-    </footer>
+    </div>
 
 
+    <div class="footer">
+        <div class="container">
+            <a href='#'><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+            <a href='#'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href='#'><i class="fa fa-envelope-open-o" aria-hidden="true"></i></a>
+            <br>
+            <br>
+            <p>&copy; 2016 - chris jacobi</p>
+
+        </div>
+    </div>
 </body>
