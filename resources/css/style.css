@@ -185,32 +185,31 @@ nav {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
+    transition: .3s ease;
+    background-color: #189bc1
 }
 
-.overlay h2 {
+.overlay h3 {
     color: white;
     font-weight: 300;
-    padding-top: 5%;
 }
 
 
 .thumbnail:hover .overlay {
     opacity: 1;
-    background-color: rgba(20, 131, 163, 0.92);
+    background-color: rgba(121, 121, 121, 0.95);
     text-decoration: none;
 }
 
 .thumbnail:hover .overlay a {
     opacity: 1;
-    background-color: rgba(20, 131, 163, 0.92);
+    background-color: rgba(121, 121, 121, 0.95);
     text-decoration: none;
 }
 
 .text {
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 100;
     position: absolute;
     top: 50%;
