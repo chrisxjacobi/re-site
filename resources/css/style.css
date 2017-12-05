@@ -167,7 +167,7 @@ nav {
 
 .thumbnail img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .image {
@@ -189,14 +189,29 @@ nav {
     background-color: #008CBA;
 }
 
+.overlay h2 {
+    color: white;
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+
 .thumbnail:hover .overlay {
     opacity: 1;
-    background-color: rgba(95, 95, 95, 0.92);
+    background-color: rgba(20, 131, 163, 0.92);
+    text-decoration: none;
+}
+
+.thumbnail:hover .overlay a {
+    opacity: 1;
+    background-color: rgba(20, 131, 163, 0.92);
+    text-decoration: none;
 }
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 100;
     position: absolute;
     top: 50%;
     left: 50%;
