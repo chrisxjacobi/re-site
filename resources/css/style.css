@@ -229,6 +229,12 @@ section.section-about {
     padding-bottom: 10%;
 }
 
+.thumbnail #chris {
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
 
 /*section contact*/
 
@@ -270,10 +276,6 @@ section.section-contact {
     background-color: ##5f5f5f;
     border-bottom: 1px solid #7b8b2f;
     transition: color 0.2s
-}
-
-.btn {
-    
 }
 
 
