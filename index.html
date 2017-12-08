@@ -18,8 +18,8 @@
     <!--navigation-->
     <nav class="nav">
         <ul class="main-nav">
-            <li><a href="#">projects</a></li>
-            <li><a href="#">about</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#about">about</a></li>
             <li><a href="contact.html">contact</a></li>
         </ul>
         <ul class="social-links">
@@ -40,7 +40,7 @@
     </div>
 
     <!--section projects-->
-    <section class="section-projects">
+    <section class="section-projects" id="projects">
 
         <div class="row">
             <div class="col-md-4">
@@ -119,7 +119,7 @@
                 <div class="thumbnail">
                     <img src="resources/css/img/90s-wrestling-hangman.jpg" class="image" alt="90s wrestling hangman">
                     <div class="overlay">
-                        <a href="https://blackmetaltrivia.herokuapp.com/">
+                        <a href="https://ninetieswrestlinghangman.herokuapp.com/">
                             <div class="text">
                                 <h3>90s wrestling hangman</h3>
                                 a nostalgic and fun javascript hangman game</div>
@@ -130,8 +130,9 @@
         </div>
 
     </section>
-
-    <section class="section-about">
+    
+    <!--section-about-->
+    <section class="section-about" id="about">
         <div class="row">
             <div class="col-md-8">
                 <h2>Hi, I'm Chris.</h2>
@@ -139,10 +140,11 @@
                     <p>
             </div>
             <div class="col-md-4">
-                    <img src="contents/chrispic.jpg" class="image">
+                <img src="contents/chrispic.jpg" class="image">
             </div>
         </div>
     </section>
+    
 
 
 
@@ -151,14 +153,16 @@
 
     <div class="footer navbar-fixed-bottom">
         <ul>
-            <li><a href='#'><i class="fa fa-github-alt " aria-hidden="true "></i></a></li>
-            <li><a href='#'><i class="fa fa-linkedin " aria-hidden="true "></i></a></li>
-            <li><a href='#'><i class="fa fa-envelope-open-o " aria-hidden="true "></i></a></li>
+            <li><a href="https://github.com/chrisxjacobi"><i class="fa fa-github-alt " aria-hidden="true "></i></a></li>
+            <li><a href="https://www.linkedin.com/in/chrisxjacobi/"><i class="fa fa-linkedin " aria-hidden="true "></i></a></li>
+            <li><a href="contact.html"><i class="fa fa-envelope-open-o " aria-hidden="true "></i></a></li>
         </ul>
         <p>&copy; 2016 chris jacobi</p>
     </div>
 
 
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/app.js"></script>
 
 </body>
