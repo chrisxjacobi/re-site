@@ -103,10 +103,25 @@
         padding-bottom: 2%;
         font-size: 34px;
     }
-    
     .jumbotron {
         margin-top: 10px;
         font-size: 16px;
         margin-bottom: 0;
+    }
+    .section-about h2 {
+        font-weight: 400;
+    }
+    .section-about p {
+        font-size: 14px;
+        text-align: center;
+    }
+    section.section-about img {
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        ;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 10px;
     }
 }
