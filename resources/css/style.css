@@ -1,10 +1,14 @@
 /*fun color: #189bc1, rgb(24,155,193)*/
+
+
 /*text-color: #5f5f5f*/
 
 
 /*--------------------*/
 
+
 /*---DEFAULT STYLES---*/
+
 
 /*--------------------*/
 
@@ -45,17 +49,23 @@ nav {
     list-style: none;
     margin-top: 40px;
     font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
+    padding-bottom: 1px;
 }
 
 .main-nav {
     float: left;
     list-style: none;
     display: flex;
+    font-size: 16px;
 }
 
 .main-nav li {
     display: inline-block;
     margin-right: 30px;
+}
+
+.main-nav .fa-arrow-left {
+    color: #189bc1;
 }
 
 .main-nav li a:link,
@@ -94,7 +104,7 @@ nav {
 }
 
 .fa-github a:link,
-.fa-github a:visited {
+.fa-github a:visited, {
     transition: color 0.5s;
 }
 
@@ -104,6 +114,7 @@ nav {
     color: #189bc1;
     transition: color 0.2s;
 }
+
 
 /*header jumbotron*/
 
@@ -232,7 +243,8 @@ section.section-about {
 section.section-about img {
     height: 70%;
     width: 70%;
-    border-radius: 50%;;
+    border-radius: 50%;
+    ;
     position: relative;
     margin: 0 auto;
 }
@@ -241,8 +253,6 @@ section.section-about img {
     font-size: 18px;
     text-align: center;
 }
-
-
 
 
 /*section contact*/
@@ -256,14 +266,11 @@ section.section-contact {
     border: none;
 }
 
-#name-contact, #email, #message {
+#name-contact,
+#email,
+#message {
     font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
     font-size: 14px;
-}
-
-#arrow {
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .text-center {
@@ -281,24 +288,26 @@ section.section-contact {
 }
 
 .btn {
-    display:block; /* change this from inline-block */
-    width:20%; /* setting the width */
-    margin:0 auto; /* this will center  it */
-    position:relative;
+    display: block;
+    /* change this from inline-block */
+    width: 20%;
+    /* setting the width */
+    margin: 0 auto;
+    /* this will center  it */
+    position: relative;
     font-family: 'Quicksand', 'Raleway', 'Arial', sans-serif;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 400;
     color: #189bc1;
     border: 1px solid black;
-    cursor:pointer;
-    -webkit-border-radius:2px;
-    -moz-border-radius:2px;
-    border-radius:2px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     background-color: ##5f5f5f;
     border-bottom: 1px solid #7b8b2f;
     transition: color 0.2s
 }
-
 
 
 /*footer*/
@@ -312,7 +321,7 @@ section.section-contact {
     padding-top: 20px;
     list-style: none;
     padding-top: 20px;
-/*
+    /*
    -webkit-box-shadow: 0px -1px 1px #189bc1;
     -moz-box-shadow:    0px -1px 1px #189bc1;
     box-shadow:         0px -1px 1px #189bc1;

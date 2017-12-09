@@ -13,7 +13,11 @@ $(document).ready(function () {
             }
         });
     });
-    
-    });
+
+    $('#contact-page').addClass('animated pulse');
+
+
+
+});
 
 //
