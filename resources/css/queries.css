@@ -97,10 +97,6 @@
         font-size: 14px;
     }
     
-    .main-nav .fa-arrow-left {
-    color: #189bc1;
-    margin-bottom: 2px;
-}
     #name {
         margin-top: 0;
         padding-top: 0;
@@ -121,7 +117,7 @@
     font-weight: 400;
     margin: 0 5% 5% 5%;
     margin-bottom: 8%;
-        padding-bottom: 8%;
+    padding-bottom: 8%;
 }
     .section-about p {
         font-size: 14px;
